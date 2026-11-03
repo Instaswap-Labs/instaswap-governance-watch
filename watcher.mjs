@@ -310,6 +310,15 @@ async function pass() {
   }
   fs.writeFileSync(path.join(STATE_DIR, 'governance.json'), JSON.stringify(pub, null, 2) + '\n');
   for (const l of lines) console.log(`[watcher] ${l}`);
+  // public event log: the page renders it, so the feed exists even without a chat channel
+  if (lines.length) {
+    const eventsFile = path.join(STATE_DIR, 'events.json');
+    const events = readJson(eventsFile, { events: [] });
+    const at = new Date().toISOString();
+    events.events = [...lines.map((text) => ({ at, text })), ...(Array.isArray(events.events) ? events.events : [])].slice(0, 500);
+    events.updatedAt = at;
+    fs.writeFileSync(eventsFile, JSON.stringify(events, null, 2) + '\n');
+  }
   // alerts that did not reach a channel last time go first; whatever fails now waits in the state file
   const unsent = await post([...(Array.isArray(last.outbox) ? last.outbox : []), ...lines]);
   snapshot.outbox = SINKS.length ? unsent.slice(-200) : [];
