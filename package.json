@@ -1,0 +1,15 @@
+{
+  "name": "instaswap-governance-watcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public watcher of the InstaSwap escrow factories' governance (pending changes, pause, owner / guardian / approver set) from on-chain reads only",
+  "scripts": {
+    "once": "node watcher.mjs --once",
+    "start": "node watcher.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}

@@ -1,0 +1,45 @@
+name: governance watch
+
+# Reads the governance state of every InstaSwap escrow factory (13 chains) from public RPCs, writes
+# state/governance.json for the public page and posts every change to the public channel. Read-only on chain.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: governance-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --omit=dev
+      - name: one pass
+        env:
+          STATE_DIR: ./state
+          PUBLIC_URL: https://instaswap.com/security/governance
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ARC_RPC_URL: ${{ secrets.ARC_RPC_URL }}
+        run: node watcher.mjs --once
+      - name: publish state
+        run: |
+          git config user.name "governance-watch[bot]"
+          git config user.email "governance-watch@users.noreply.github.com"
+          git add state/governance.json state/last.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -q -m "state $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q origin "${GITHUB_REF_NAME}" || true
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
