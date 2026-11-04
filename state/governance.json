@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T10:24:24.000Z",
+  "generatedAt": "2026-11-04T10:32:21.498Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -41,7 +41,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874251
+          "creationUnlockAt": 1793874731
         },
         {
           "tag": "v4",
@@ -75,7 +75,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874251
+          "creationUnlockAt": 1793874731
         },
         {
           "tag": "near-bridge",
@@ -109,7 +109,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874251
+          "creationUnlockAt": 1793874731
         }
       ]
     },
@@ -151,7 +151,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "v4",
@@ -185,7 +185,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     },
@@ -227,7 +227,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "pancake",
@@ -261,7 +261,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "v4",
@@ -295,7 +295,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     },
@@ -337,7 +337,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874264
+          "creationUnlockAt": 1793874742
         },
         {
           "tag": "v4",
@@ -371,7 +371,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874264
+          "creationUnlockAt": 1793874742
         }
       ]
     },
@@ -413,7 +413,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874265
+          "creationUnlockAt": 1793874742
         },
         {
           "tag": "v4",
@@ -447,7 +447,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874265
+          "creationUnlockAt": 1793874742
         }
       ]
     },
@@ -489,7 +489,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "v4",
@@ -523,7 +523,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     },
@@ -565,7 +565,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         },
         {
           "tag": "v4",
@@ -599,7 +599,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         }
       ]
     },
@@ -658,7 +658,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "v4",
@@ -692,7 +692,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     },
@@ -734,7 +734,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         },
         {
           "tag": "v4",
@@ -768,7 +768,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         },
         {
           "tag": "split",
@@ -802,7 +802,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         }
       ]
     },
@@ -844,7 +844,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874740
         },
         {
           "tag": "v4",
@@ -878,7 +878,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     },
@@ -920,7 +920,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793830893
+          "creationUnlockAt": 1793831373
         },
         {
           "tag": "v4",
@@ -954,7 +954,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793830893
+          "creationUnlockAt": 1793831373
         }
       ]
     },
@@ -996,7 +996,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         },
         {
           "tag": "v4",
@@ -1030,7 +1030,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793874263
+          "creationUnlockAt": 1793874741
         }
       ]
     }
