@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T11:15:03.395Z",
+  "generatedAt": "2026-11-04T11:24:06.457Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -41,7 +41,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877299
+          "creationUnlockAt": 1793877839
         },
         {
           "tag": "v4",
@@ -75,7 +75,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877299
+          "creationUnlockAt": 1793877839
         },
         {
           "tag": "near-bridge",
@@ -109,7 +109,112 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877299
+          "creationUnlockAt": 1793877839
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x62eD327E5bD7CCfCDA51909550CEeFaD7C13342b",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877839
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xab97877c88110bF2FB458eaFB41181aBaAB6Ce43",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877839
+        },
+        {
+          "tag": "near-bridge",
+          "contract": "EscrowFactoryV7",
+          "generation": "gen10",
+          "address": "0x9003B460c25b26C6B54CeC0cC741C2a6a206e98A",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877839
         }
       ]
     },
@@ -151,7 +256,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
         },
         {
           "tag": "v4",
@@ -185,7 +290,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
         }
       ]
     },
@@ -227,7 +402,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877846
         },
         {
           "tag": "pancake",
@@ -261,7 +436,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877846
         },
         {
           "tag": "v4",
@@ -295,7 +470,112 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "uniswap-bsc",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xD8Ac992C7281DfC96f27e45D0d94b912766158a3",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "pancake",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x62eD327E5bD7CCfCDA51909550CEeFaD7C13342b",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xab97877c88110bF2FB458eaFB41181aBaAB6Ce43",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
         }
       ]
     },
@@ -337,7 +617,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877847
         },
         {
           "tag": "v4",
@@ -371,7 +651,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
         }
       ]
     },
@@ -413,7 +763,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877304
+          "creationUnlockAt": 1793877847
         },
         {
           "tag": "v4",
@@ -447,7 +797,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877304
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
         }
       ]
     },
@@ -489,7 +909,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
         },
         {
           "tag": "v4",
@@ -523,7 +943,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
         }
       ]
     },
@@ -565,7 +1055,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877302
+          "creationUnlockAt": 1793877846
         },
         {
           "tag": "v4",
@@ -599,7 +1089,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xcE0d29657696e905A77ddbffb0a8f6D15Bb38E38",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
         }
       ]
     },
@@ -614,6 +1174,15 @@
           "contract": "UniswapV4EscrowFactoryV4",
           "generation": "gen9",
           "address": "0xf7c545C6E052BE85426Fb88148c044B31AAAD360",
+          "retired": false,
+          "stale": true,
+          "error": null
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4dDbc91B41293C4032Ff86703bb89dB928449Aa2",
           "retired": false,
           "stale": true,
           "error": null
@@ -658,7 +1227,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
         },
         {
           "tag": "v4",
@@ -692,7 +1261,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x63Ee9584C22d241caB96D1ACa5e1D407EAEc6AB7",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x847B937eAf99C927d3689aC3a9B90Cf65503aaa4",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877845
         }
       ]
     },
@@ -734,7 +1373,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877302
+          "creationUnlockAt": 1793877845
         },
         {
           "tag": "v4",
@@ -768,7 +1407,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877302
+          "creationUnlockAt": 1793877845
         },
         {
           "tag": "split",
@@ -802,7 +1441,112 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x61C9cE5b50d66778c9C8f4DE41211f7Cc1D7e9C3",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x0e79eBDb832c7ea54a1B65ac5Ff2b75D449747CA",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
+        },
+        {
+          "tag": "split",
+          "contract": "SplitEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x7F1D0b26ED27C64a458b7eF3aAA46C81caa62CC6",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0x887621c62D47FbFD3b6ff46941272233fC04E737",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877846
         }
       ]
     },
@@ -844,7 +1588,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877302
+          "creationUnlockAt": 1793877844
         },
         {
           "tag": "v4",
@@ -878,7 +1622,77 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xcE0d29657696e905A77ddbffb0a8f6D15Bb38E38",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877845
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC947cbA0FEf810b4CBD6d259E84E05D9Bb677f34",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877845
         }
       ]
     },
@@ -920,7 +1734,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793833941
+          "creationUnlockAt": 1793834481
         },
         {
           "tag": "v4",
@@ -954,7 +1768,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793833941
+          "creationUnlockAt": 1793834481
         }
       ]
     },
@@ -996,7 +1810,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877847
         },
         {
           "tag": "v4",
@@ -1030,14 +1844,84 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1793877303
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v3",
+          "contract": "UniswapEscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
+        },
+        {
+          "tag": "v4",
+          "contract": "UniswapV4EscrowFactoryV4",
+          "generation": "gen10",
+          "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+          "retired": false,
+          "stale": false,
+          "error": null,
+          "version": "10",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1793877847
         }
       ]
     }
   ],
   "open": [],
   "summary": {
-    "factories": 28,
+    "factories": 54,
     "chains": 13,
     "staleChains": [
       "Arc"
