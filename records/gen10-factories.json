@@ -1,0 +1,1400 @@
+{
+  "mainnet": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x62eD327E5bD7CCfCDA51909550CEeFaD7C13342b",
+      "chainId": 1,
+      "envName": "UNI_FACTORY_V7_ETHEREUM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x5802D4650aa57BeF158239eF0b73a3b819Fefd74",
+      "txHash": "0x78df697410374298f086ccea22ba68cb283ae3696bc20bdef86c8ee372d7ab54",
+      "block": 26340934,
+      "gasUsed": "5759085",
+      "nonce": 42,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/mainnet-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:44:56.960Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xab97877c88110bF2FB458eaFB41181aBaAB6Ce43",
+      "chainId": 1,
+      "envName": "UNIV4_FACTORY_V7_ETHEREUM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x22926D4e13491C0a21C90B57085896b54943a3Bf",
+      "txHash": "0xb825475c248fa0d58cb0828015c0f0c8fa1614b12bcfa47214dcdb4655918dcd",
+      "block": 26340935,
+      "gasUsed": "5948398",
+      "nonce": 43,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x000000000004444c5dc75cB358380D2e3dE08A90",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/mainnet-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:06.570Z"
+    },
+    "near-bridge": {
+      "contract": "EscrowFactoryV7",
+      "address": "0x9003B460c25b26C6B54CeC0cC741C2a6a206e98A",
+      "chainId": 1,
+      "envName": "NEAR_BRIDGE_FACTORY_V10_ADDRESS",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x2D4aB3271780265731B41A6E98aa2d085a0139BC",
+      "txHash": "0x0451d91416f0e568705650b5c1791d64a7d9d68dad1681a2c708e38a58d6fa97",
+      "block": 26340936,
+      "gasUsed": "5134095",
+      "nonce": 44,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/mainnet-near-bridge.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:20.260Z"
+    }
+  },
+  "arbitrum": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x61C9cE5b50d66778c9C8f4DE41211f7Cc1D7e9C3",
+      "chainId": 42161,
+      "envName": "UNI_FACTORY_V7_ARBITRUM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x1e1EaFCFAB44aDF86Fb9C5f0b12eac31EF3b095b",
+      "txHash": "0xb4f127d4b9aa9872583fb325c85940a98b5dd0cbf023493c49017a5974f80762",
+      "block": 521151340,
+      "gasUsed": "5759085",
+      "nonce": 37,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/arbitrum-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:24.224Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0x0e79eBDb832c7ea54a1B65ac5Ff2b75D449747CA",
+      "chainId": 42161,
+      "envName": "UNIV4_FACTORY_V7_ARBITRUM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xf9616a39041d06f4e9558C8E4Fe67F3536F480e6",
+      "txHash": "0x81464e5bc5402c105740aa7921a435caddf7d43434198b568adbb6cf07337fe7",
+      "block": 521151351,
+      "gasUsed": "5948458",
+      "nonce": 38,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x360e68faccca8ca495c1b759fd9eee466db9fb32",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/arbitrum-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:31.388Z"
+    },
+    "split": {
+      "contract": "SplitEscrowFactoryV4",
+      "address": "0x7F1D0b26ED27C64a458b7eF3aAA46C81caa62CC6",
+      "chainId": 42161,
+      "envName": "SPLIT_ESCROW_FACTORY_V7_ADDRESS",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x309034bdEF0a386BcEAe2e4582D16BFf69617438",
+      "txHash": "0x459484ffbbb3635a6be7c3760be60dd4f6c7307f569eb9dd3c9aec9d8a70f31e",
+      "block": 521151376,
+      "gasUsed": "4388515",
+      "nonce": 39,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0x887621c62D47FbFD3b6ff46941272233fC04E737",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/arbitrum-split.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:38.172Z"
+    }
+  },
+  "robinhood": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 4663,
+      "envName": "UNI_FACTORY_V7_ROBINHOOD",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0xe7fea79d977a0136f158cc337aef974989f5243502b57efc83324815bca3e6ef",
+      "block": 105840525,
+      "gasUsed": "5772864",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0xcaf681a66d020601342297493863e78c959e5cb2",
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/robinhood-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:46.073Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xcE0d29657696e905A77ddbffb0a8f6D15Bb38E38",
+      "chainId": 4663,
+      "envName": "UNIV4_FACTORY_V7_ROBINHOOD",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xb64c31643af25Bc5DAe696Ad44de87a3a1e03b75",
+      "txHash": "0x2699c9730f11a1a37c097b8b203fa4e710a392056193bae03725d05cc748bde9",
+      "block": 105840592,
+      "gasUsed": "5962999",
+      "nonce": 29,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/robinhood-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:53.008Z"
+    }
+  },
+  "base": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x63Ee9584C22d241caB96D1ACa5e1D407EAEc6AB7",
+      "chainId": 8453,
+      "envName": "UNI_FACTORY_V7_BASE",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x8E8E21484009B00dA95c8Fe0B18cD5dc8e6a10Fb",
+      "txHash": "0xc24aeb4c4110b938628125da41a89bb893ca2c315694232b0ee8eb4f8e6b1508",
+      "block": 53499908,
+      "gasUsed": "5758869",
+      "nonce": 31,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x2626664c2603336E57B271c5C0b26F421741e481",
+        "0x4200000000000000000000000000000000000006",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/base-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:45:59.119Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0x847B937eAf99C927d3689aC3a9B90Cf65503aaa4",
+      "chainId": 8453,
+      "envName": "UNIV4_FACTORY_V7_BASE",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x7bA8C80de543562089807D092089ea5f3dEb0900",
+      "txHash": "0x179446e0472b4284ab57b401b325c84ccc0174a0dba1b0fc9a974cf36d58d8c2",
+      "block": 53499911,
+      "gasUsed": "5948458",
+      "nonce": 32,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x498581ff718922c3f8e6a244956af099b2652b2b",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/base-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:04.369Z"
+    }
+  },
+  "optimism": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+      "chainId": 10,
+      "envName": "UNI_FACTORY_V7_OPTIMISM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xfD2a46b82809E31740e1F84454e9c570F9209b3C",
+      "txHash": "0x4c832738e3563c3917aeb0584ca989e32ace2b6bab0c53f9b6920c348d45ae66",
+      "block": 159095198,
+      "gasUsed": "5758869",
+      "nonce": 27,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "0x4200000000000000000000000000000000000006",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/optimism-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:10.392Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 10,
+      "envName": "UNIV4_FACTORY_V7_OPTIMISM",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0xd9a24ffc29cc128a1efafda972b07d4a57df6fc6098963b27acbb587a9afffa1",
+      "block": 159095201,
+      "gasUsed": "5948458",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x9a13f98cb987694c9f086b1f5eb990eea8264ec3",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/optimism-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:15.594Z"
+    }
+  },
+  "polygon": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+      "chainId": 137,
+      "envName": "UNI_FACTORY_V7_POLYGON",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xfD2a46b82809E31740e1F84454e9c570F9209b3C",
+      "txHash": "0x7813662ed26fe77855ac4b6ac5d93d14c6abc7a21d2848a25b1de36ece0f7551",
+      "block": 96722487,
+      "gasUsed": "5820405",
+      "nonce": 27,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/polygon-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:21.982Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 137,
+      "envName": "UNIV4_FACTORY_V7_POLYGON",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0xd8525a5af3333963b17497bcb5165fb1155a6840ca09ca998e07f7d972f0ccdc",
+      "block": 96722491,
+      "gasUsed": "6009778",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x67366782805870060151383f4bbff9dab53e5cd6",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/polygon-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:27.767Z"
+    }
+  },
+  "bnb": {
+    "uniswap-bsc": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0xD8Ac992C7281DfC96f27e45D0d94b912766158a3",
+      "chainId": 56,
+      "envName": "UNI_FACTORY_V7_BNB_UNISWAP",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xd012e608936056Bd8e95dDad2b4458cE711Cf360",
+      "txHash": "0xf8e3e37c4fb3e197a8cbb932263cd17ab3d3a7b3c5cf3e946f4dd12c05836eaa",
+      "block": 131611293,
+      "gasUsed": "5759085",
+      "nonce": 41,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2",
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/bnb-uniswap-bsc.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:34.119Z"
+    },
+    "pancake": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x62eD327E5bD7CCfCDA51909550CEeFaD7C13342b",
+      "chainId": 56,
+      "envName": "UNI_FACTORY_V7_BNB",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x5802D4650aa57BeF158239eF0b73a3b819Fefd74",
+      "txHash": "0x39b2488467cc68292d29611eecbc3724365692bacb501212b0d1c2480fbd68c7",
+      "block": 131611306,
+      "gasUsed": "5759085",
+      "nonce": 42,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4",
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/bnb-pancake.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:39.676Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xab97877c88110bF2FB458eaFB41181aBaAB6Ce43",
+      "chainId": 56,
+      "envName": "UNIV4_FACTORY_V7_BNB_UNISWAP",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x22926D4e13491C0a21C90B57085896b54943a3Bf",
+      "txHash": "0x84a823661432de9f3bfe388f3e6cfc912f99362f1513d3ea19994ec0840c8a1b",
+      "block": 131611318,
+      "gasUsed": "5948458",
+      "nonce": 43,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x28e2ea090877bf75740558f6bfb36a5ffee9e9df",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/bnb-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:45.181Z"
+    }
+  },
+  "avalanche": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0xcE0d29657696e905A77ddbffb0a8f6D15Bb38E38",
+      "chainId": 43114,
+      "envName": "UNI_FACTORY_V7_AVALANCHE",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xb64c31643af25Bc5DAe696Ad44de87a3a1e03b75",
+      "txHash": "0x1d7f2e8a3621c54811d7ed00706e083360535e63e7e3f7b1eb44eefda7ae5749",
+      "block": 99396188,
+      "gasUsed": "5759061",
+      "nonce": 29,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE",
+        "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/avalanche-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:46:51.157Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC947cbA0FEf810b4CBD6d259E84E05D9Bb677f34",
+      "chainId": 43114,
+      "envName": "UNIV4_FACTORY_V7_AVALANCHE",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x6517b318d4C0B00A491a5F57a85F6572EEC9F44a",
+      "txHash": "0xdc352c954c91048e91d6e1884ffedd9ed767c20466bfc1ce76a295ebdf0f82b4",
+      "block": 99396196,
+      "gasUsed": "5948458",
+      "nonce": 30,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x06380c0e0912312b5150364b9dc4542ba0dbbc85",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/avalanche-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:00.653Z"
+    }
+  },
+  "zora": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+      "chainId": 7777777,
+      "envName": "UNI_FACTORY_V7_ZORA",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xfD2a46b82809E31740e1F84454e9c570F9209b3C",
+      "txHash": "0x497d5ed6e82240c839ae4e187bc6248d3ece111eb71969183fd1312cc771bb13",
+      "block": 53547697,
+      "gasUsed": "5758869",
+      "nonce": 27,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x7De04c96BE5159c3b5CeffC82aa176dc81281557",
+        "0x4200000000000000000000000000000000000006",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/zora-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:10.332Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 7777777,
+      "envName": "UNIV4_FACTORY_V7_ZORA",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0x9165e36cf95cf34efdb27ce1c9e9b67087be8fefc276f3e5c3be9177fb66bef7",
+      "block": 53547701,
+      "gasUsed": "5948434",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x0575338e4c17006ae181b47900a84404247ca30f",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/zora-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:18.663Z"
+    }
+  },
+  "worldchain": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+      "chainId": 480,
+      "envName": "UNI_FACTORY_V7_WORLDCHAIN",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xfD2a46b82809E31740e1F84454e9c570F9209b3C",
+      "txHash": "0x8c89c9bbaac9752d81a400f3840f9c0b702e1baf068c856ff0637291a2ec2b0e",
+      "block": 37226805,
+      "gasUsed": "5758869",
+      "nonce": 27,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x091AD9e2e6e5eD44c1c66dB50e49A601F9f36cF6",
+        "0x4200000000000000000000000000000000000006",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/worldchain-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:24.549Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 480,
+      "envName": "UNIV4_FACTORY_V7_WORLDCHAIN",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0x5b7d7555df13432033026f7d1fb2ae1fa8476625dbb082e2f47949ede8001af7",
+      "block": 37226807,
+      "gasUsed": "5948458",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0xb1860d529182ac3bc1f51fa2abd56662b7d13f33",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/worldchain-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:29.913Z"
+    }
+  },
+  "unichain": {
+    "v3": {
+      "contract": "UniswapEscrowFactoryV4",
+      "address": "0x4F8f1d53c532b51338B98Fc961D46A29D1268697",
+      "chainId": 130,
+      "envName": "UNI_FACTORY_V7_UNICHAIN",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0xfD2a46b82809E31740e1F84454e9c570F9209b3C",
+      "txHash": "(receipt lost: could not coalesce error; CREATE nonce 27)",
+      "block": null,
+      "gasUsed": "unknown",
+      "nonce": 27,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x73855d06de49d0fe4a9c42636ba96c62da12ff9c",
+        "0x4200000000000000000000000000000000000006",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/unichain-v3.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:40.107Z"
+    },
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0xC7045aE3E79bdeE402E45F0916006aE553eC60dd",
+      "chainId": 130,
+      "envName": "UNIV4_FACTORY_V7_UNICHAIN",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x04c1785EfA5ff3e35daB8640A42F4e5a5eE9ADA2",
+      "txHash": "0xd5edc8aec56e4928e79ab198a017cce575c176c11b78e4a90412a4c7d2ccfc97",
+      "block": 63040910,
+      "gasUsed": "5948266",
+      "nonce": 28,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x1f98400000000000000000000000000000000004",
+        "true",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/unichain-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:45.888Z"
+    }
+  },
+  "arc": {
+    "v4": {
+      "contract": "UniswapV4EscrowFactoryV4",
+      "address": "0x4dDbc91B41293C4032Ff86703bb89dB928449Aa2",
+      "chainId": 5042,
+      "envName": "UNIV4_FACTORY_V7_ARC",
+      "deployer": "0xeE55296753401A1F3d1E907E4493Ae9acD876917",
+      "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+      "approvers": [
+        "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+        "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+        "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+        "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+        "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+      ],
+      "approvalsRequired": 3,
+      "guardian": "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+      "minApprovalsRequired": 3,
+      "eip712Version": "10",
+      "implementation": "0x4D163c14f60bBF86bb343258196bfA114DE96807",
+      "txHash": "0x8a43b982e60f506e8ad7048c6910573c419d90849d70a5d53c2d2deba738d1dd",
+      "block": 29486199,
+      "gasUsed": "5948434",
+      "nonce": 13,
+      "ctorArgs": [
+        "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+        "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+        "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+        "0xAbC46114cccc02C624CeA2474160FD1F3D88DA06",
+        "86400",
+        "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+        "false",
+        [
+          "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+          "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+          "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+          "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+          "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+        ],
+        "3",
+        "3"
+      ],
+      "ctorArgsModule": "deployments/gen10-ctor-args/arc-v4.cjs",
+      "compiler": "0.8.24+commit.e11b9ed9",
+      "evmVersion": "paris",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "sourceCommit": "1bd8cb76e4acb93c5198a64ad2bf68d7f0ffd39a",
+      "sourceDirty": false,
+      "approvals": "on: 3-of-5 (constructor, floor 3)",
+      "timestamp": "2026-11-04T10:47:51.474Z"
+    }
+  }
+}
