@@ -7,7 +7,8 @@ set, threshold, floor, approver epoch, pending approver set, treasury, pause, re
 writes [`state/governance.json`](state/governance.json) and posts every change to the public channel with its
 countdown. Nothing here holds a key; the only secrets are the channel credentials and one RPC URL.
 
-- Page: https://instaswap.com/security/governance (renders `state/governance.json`)
+- Page: https://instaswap.com/security/governance (renders `state/governance.json` and `state/events.json`)
+- Channel: the `#governance` channel of the InstaSwap Discord (posts changes only; silence means nothing moved)
 - Contracts and audit material: https://github.com/Instaswap-Labs/instaswap-escrow-audit
 - Factory records: [`records/`](records/) (copies of the deployment records of the audit repository)
 

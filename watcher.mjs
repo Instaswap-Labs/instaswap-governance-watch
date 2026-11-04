@@ -254,6 +254,7 @@ const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8'))
 async function pass() {
   fs.mkdirSync(STATE_DIR, { recursive: true });
   const lastFile = path.join(STATE_DIR, 'last.json');
+  const fresh = !fs.existsSync(lastFile);
   const last = readJson(lastFile, { factories: {}, digestDay: null });
   const factories = loadFactories();
   const now = Math.floor(Date.now() / 1000);
@@ -308,6 +309,8 @@ async function pass() {
     lines.push(`Daily digest: ${pub.open.length} open governance schedule(s): ` + pub.open.map((o) => `${o.kind} on ${o.factory} ${o.countdown}`).join('; '));
     snapshot.digestDay = day;
   }
+  // first pass ever (no state yet): one hello so the channel shows the connection; afterwards only changes are posted
+  if (fresh && SINKS.length) lines.unshift(`Governance watch started: ${factories.length} escrow factories on ${byChain.size} chains, ${pub.open.length} open schedule(s), ${pub.summary.paused} paused. From now on this channel posts changes only: a scheduled change with its 48 h countdown, a cancel, a pause, an owner / operator / guardian / approver change, and a daily digest while something is open. Silence means nothing moved.`);
   fs.writeFileSync(path.join(STATE_DIR, 'governance.json'), JSON.stringify(pub, null, 2) + '\n');
   for (const l of lines) console.log(`[watcher] ${l}`);
   // public event log: the page renders it, so the feed exists even without a chat channel
