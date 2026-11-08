@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:44:09.010Z",
+  "generatedAt": "2026-11-08T14:51:04.271Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -41,7 +41,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         },
         {
           "tag": "v4",
@@ -75,7 +75,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         },
         {
           "tag": "near-bridge",
@@ -109,7 +109,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         },
         {
           "tag": "v3",
@@ -144,7 +144,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         },
         {
           "tag": "v4",
@@ -179,7 +179,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         },
         {
           "tag": "near-bridge",
@@ -214,7 +214,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235439
+          "creationUnlockAt": 1794235859
         }
       ]
     },
@@ -256,7 +256,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -290,7 +290,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v3",
@@ -325,7 +325,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -360,7 +360,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235865
         }
       ]
     },
@@ -402,7 +402,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "pancake",
@@ -436,7 +436,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -470,7 +470,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "uniswap-bsc",
@@ -505,7 +505,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "pancake",
@@ -540,7 +540,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -575,7 +575,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         }
       ]
     },
@@ -617,7 +617,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -651,7 +651,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v3",
@@ -686,7 +686,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -721,7 +721,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235450
+          "creationUnlockAt": 1794235864
         }
       ]
     },
@@ -763,7 +763,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235450
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -797,7 +797,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235450
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v3",
@@ -832,7 +832,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235450
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -867,7 +867,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235450
+          "creationUnlockAt": 1794235864
         }
       ]
     },
@@ -909,7 +909,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -943,7 +943,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v3",
@@ -978,7 +978,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1013,7 +1013,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         }
       ]
     },
@@ -1055,7 +1055,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1089,7 +1089,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v3",
@@ -1124,7 +1124,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1159,7 +1159,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         }
       ]
     },
@@ -1201,7 +1201,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1236,7 +1236,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         }
       ]
     },
@@ -1278,7 +1278,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -1312,7 +1312,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v3",
@@ -1347,7 +1347,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         },
         {
           "tag": "v4",
@@ -1382,7 +1382,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235864
         }
       ]
     },
@@ -1424,7 +1424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1458,7 +1458,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "split",
@@ -1492,7 +1492,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v3",
@@ -1527,7 +1527,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1562,7 +1562,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "split",
@@ -1597,7 +1597,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235448
+          "creationUnlockAt": 1794235863
         }
       ]
     },
@@ -1605,7 +1605,7 @@
       "chainId": 43114,
       "label": "Avalanche",
       "rpc": "api.avax.network",
-      "error": null,
+      "error": "getCode timed out",
       "factories": [
         {
           "tag": "v3",
@@ -1613,8 +1613,8 @@
           "generation": "gen9",
           "address": "0x11d37EC4Fa0d88E3071862eA55db26BcDB2aAC86",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "getCode timed out",
           "version": "9",
           "owner": "0x781551402FBa10Bb3dF20A3391DA5AA43d5E65D7",
           "pendingOwner": null,
@@ -1647,8 +1647,8 @@
           "generation": "gen9",
           "address": "0x27Cab64AEb3601Bd5Ed942Fd77cE9582cfB8A0E2",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "getCode timed out",
           "version": "9",
           "owner": "0x781551402FBa10Bb3dF20A3391DA5AA43d5E65D7",
           "pendingOwner": null,
@@ -1681,8 +1681,8 @@
           "generation": "gen10",
           "address": "0xcE0d29657696e905A77ddbffb0a8f6D15Bb38E38",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "getCode timed out",
           "version": "10",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -1716,8 +1716,8 @@
           "generation": "gen10",
           "address": "0xC947cbA0FEf810b4CBD6d259E84E05D9Bb677f34",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "getCode timed out",
           "version": "10",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -1861,7 +1861,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v4",
@@ -1895,7 +1895,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235863
         },
         {
           "tag": "v3",
@@ -1930,7 +1930,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235865
         },
         {
           "tag": "v4",
@@ -1965,7 +1965,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794235449
+          "creationUnlockAt": 1794235865
         }
       ]
     }
@@ -1975,6 +1975,7 @@
     "factories": 54,
     "chains": 13,
     "staleChains": [
+      "Avalanche",
       "Blast"
     ],
     "openSchedules": 0,
