@@ -1,7 +1,7 @@
 # InstaSwap governance watch
 
-Public, read-only watcher of the governance of the InstaSwap walletless escrow factories (28 factories on 13 EVM
-chains today, the next generation added when it is deployed). Every 5 minutes a GitHub Action reads the on-chain
+Public, read-only watcher of the governance of the InstaSwap walletless escrow factories (26 factories on 12 EVM
+chains). Every 5 minutes a GitHub Action reads the on-chain
 getters of every factory (owner, pending owner, operator, pending operator, guardian, pending guardian, approver
 set, threshold, floor, approver epoch, pending approver set, treasury, pause, refund timeout, creation unlock),
 writes [`state/governance.json`](state/governance.json) and posts every change to the public channel with its

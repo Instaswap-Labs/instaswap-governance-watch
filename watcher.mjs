@@ -1,12 +1,12 @@
-// Gen-10 Phase A4: public governance watcher. On-chain reads ONLY (no database, no backend), one process, no
-// secrets except the optional Discord webhook URL.
+// Public governance watcher of the InstaSwap escrow factories. On-chain reads ONLY (no database, no backend), one
+// process, no secrets except the optional Discord webhook URL.
 //
 // What it does, every WATCH_INTERVAL_S (default 300 s) or once with --once:
-//   1. loads the factory records (default contracts/deployments/gen9-factories.json and, when present,
-//      gen10-factories.json; override with FACTORY_RECORDS=path,path),
+//   1. loads the factory records (default gen11-factories.json under contracts/deployments or ./records;
+//      override with FACTORY_RECORDS=path,path),
 //   2. reads every factory's governance state: owner, pendingOwner + ownershipEffectiveAt, operator,
 //      pendingOperator, guardian, pendingGuardian, approvers + approvalsRequired + approverEpoch, pendingApprovers,
-//      treasury (+ pendingTreasury on gen-9; immutable on gen-10), minApprovalsRequired (gen-10), paused,
+//      treasury (immutable on the current generation), minApprovalsRequired, paused,
 //      refundTimeout, looseningEffectiveAt, creationUnlockAt, version,
 //   3. writes STATE_DIR/governance.json (the public page reads this: instaswap.com/security/governance) and
 //      STATE_DIR/last.json (previous snapshot for the diff),
@@ -15,8 +15,8 @@
 //      (DIGEST_HOUR_UTC, default 9) while anything is pending.
 //
 // Reads go through Multicall3 (0xcA11bde05977b3631167028862bE2a173976CA11) when it has code on the chain, else one
-// eth_call per field. A field a generation lacks (pendingTreasury on gen-10, minApprovalsRequired on gen-9) is
-// recorded as null, never as an error. An RPC failure keeps the last known state of that chain and is flagged in
+// eth_call per field. A field the factory build lacks (such as pendingTreasury) is recorded as null, never as an
+// error. An RPC failure keeps the last known state of that chain and is flagged in
 // the JSON (`chains[].error`) so a stale page is visible as stale.
 //
 // Env: DISCORD_WEBHOOK_URL (optional; without it the watcher only writes the JSON), STATE_DIR (default ./state),
@@ -62,7 +62,7 @@ for (const c of Object.values(CHAINS)) c.rpc = (process.env[`${c.suffix}_RPC_URL
 // Arc has no public RPC: on the owner's workstation take it from the gitignored deploy config (only that field).
 if (!CHAINS.arc.rpc) { try { CHAINS.arc.rpc = String(JSON.parse(fs.readFileSync(path.join(ROOT, 'contracts', 'local', 'deploy-config.json'), 'utf8')).arcRpcUrl || '').trim(); } catch { /* server: ARC_RPC_URL env */ } }
 
-// Governance surface shared by gen-9 and gen-10 (FactoryGovernance + ApproverRegistryV2); optional per generation.
+// Governance surface of the factories (FactoryGovernance + ApproverRegistryV2); optional fields may be absent in a build.
 const ABI = [
   'function owner() view returns (address)',
   'function pendingOwner() view returns (address)',
@@ -76,8 +76,8 @@ const ABI = [
   'function approverEpoch() view returns (uint256)',
   'function pendingApprovers() view returns (address[] approversList, uint256 required, uint256 effectiveAt)',
   'function treasury() view returns (address)',
-  'function pendingTreasury() view returns (address treasury, uint64 effectiveAt)',   // gen-9 only
-  'function minApprovalsRequired() view returns (uint256)',                            // gen-10 only
+  'function pendingTreasury() view returns (address treasury, uint64 effectiveAt)',   // absent when the treasury is immutable
+  'function minApprovalsRequired() view returns (uint256)',
   'function paused() view returns (bool)',
   'function refundTimeout() view returns (uint256)',
   'function looseningEffectiveAt() view returns (uint256)',
@@ -94,7 +94,7 @@ function loadFactories() {
   const files = (process.env.FACTORY_RECORDS || '').split(',').map((s) => s.trim()).filter(Boolean);
   // monorepo: the deploy records next to the contracts; standalone public repo: copies under ./records
   const dirs = [path.join(ROOT, 'contracts', 'deployments'), path.join(here, 'records')];
-  if (!files.length) for (const dir of dirs) { for (const g of ['gen9', 'gen10']) { const f = path.join(dir, `${g}-factories.json`); if (fs.existsSync(f)) files.push(f); } if (files.length) break; }
+  if (!files.length) for (const dir of dirs) { for (const g of ['gen11']) { const f = path.join(dir, `${g}-factories.json`); if (fs.existsSync(f)) files.push(f); } if (files.length) break; }
   const out = [];
   for (const f of files) {
     const gen = path.basename(f).replace('-factories.json', '');

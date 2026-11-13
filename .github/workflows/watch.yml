@@ -1,6 +1,6 @@
 name: governance watch
 
-# Reads the governance state of every InstaSwap escrow factory (13 chains) from public RPCs, writes
+# Reads the governance state of every InstaSwap escrow factory (12 chains) from public RPCs, writes
 # state/governance.json for the public page and posts every change to the public channel. Read-only on chain.
 on:
   schedule:
