@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:55:08.249Z",
+  "generatedAt": "2026-11-13T13:56:22.069Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -42,7 +42,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664571
         },
         {
           "tag": "v4",
@@ -77,7 +77,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664571
         },
         {
           "tag": "near-bridge",
@@ -112,7 +112,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664571
         }
       ]
     },
@@ -155,7 +155,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "v4",
@@ -190,7 +190,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664581
         }
       ]
     },
@@ -233,7 +233,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664582
         },
         {
           "tag": "pancake",
@@ -268,7 +268,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         },
         {
           "tag": "v4",
@@ -303,7 +303,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         }
       ]
     },
@@ -346,7 +346,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664582
         },
         {
           "tag": "v4",
@@ -381,7 +381,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         }
       ]
     },
@@ -424,7 +424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         },
         {
           "tag": "v4",
@@ -459,7 +459,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         }
       ]
     },
@@ -502,7 +502,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "v4",
@@ -537,7 +537,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664581
         }
       ]
     },
@@ -580,7 +580,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "v4",
@@ -615,15 +615,15 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664581
         }
       ]
     },
     {
       "chainId": 5042,
       "label": "Arc",
-      "rpc": null,
-      "error": "no RPC configured",
+      "rpc": "arc-mainnet.g.alchemy.com",
+      "error": null,
       "factories": [
         {
           "tag": "v4",
@@ -631,8 +631,34 @@
           "generation": "gen11",
           "address": "0xFCf0620C874e180595C1EC408Ea3f0b9Ae7054F1",
           "retired": false,
-          "stale": true,
-          "error": null
+          "stale": false,
+          "error": null,
+          "version": "11",
+          "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
+          "pendingOwner": null,
+          "ownershipEffectiveAt": null,
+          "operator": "0xDA09CA33cf4151B3371429419f57Afc278518D98",
+          "pendingOperator": null,
+          "guardian": "0xF8fF1Bd0A19b404867Fd6E9545310A0956943777",
+          "pendingGuardian": null,
+          "approvers": [
+            "0x23a752FdB2a6d96490bD0D378b1633bE29122DF8",
+            "0x2c641Fc82b734fadA6a7Fb6A1dD21D1fB190714e",
+            "0x73FdeFD463a9020D789DD13577dbCCe442e88d0d",
+            "0x7aB0c85770c8901015E36749B6cF0D375A6F2fcA",
+            "0xb04977E90e8F0C6e01FAD52553de34782018078c"
+          ],
+          "approvalsRequired": 3,
+          "approverEpoch": 1,
+          "minApprovalsRequired": 3,
+          "pendingApprovers": null,
+          "treasury": "0x4d3D51584f3D5BA0b5CC258EB0F7b1e0966F4584",
+          "treasuryImmutable": true,
+          "pendingTreasury": null,
+          "paused": false,
+          "refundTimeoutSeconds": 86400,
+          "looseningEffectiveAt": null,
+          "creationUnlockAt": 1794664581
         }
       ]
     },
@@ -675,7 +701,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664582
         },
         {
           "tag": "v4",
@@ -710,7 +736,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664582
         }
       ]
     },
@@ -753,7 +779,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "v4",
@@ -788,7 +814,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "split",
@@ -823,7 +849,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664512
+          "creationUnlockAt": 1794664581
         }
       ]
     },
@@ -866,7 +892,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664580
         },
         {
           "tag": "v4",
@@ -901,7 +927,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664511
+          "creationUnlockAt": 1794664580
         }
       ]
     },
@@ -944,7 +970,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664581
         },
         {
           "tag": "v4",
@@ -979,7 +1005,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1794664513
+          "creationUnlockAt": 1794664581
         }
       ]
     }
@@ -988,9 +1014,7 @@
   "summary": {
     "factories": 26,
     "chains": 12,
-    "staleChains": [
-      "Arc"
-    ],
+    "staleChains": [],
     "openSchedules": 0,
     "paused": 0
   }

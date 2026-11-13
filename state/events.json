@@ -1,3 +1,9 @@
 {
-  "events": []
+  "events": [
+    {
+      "at": "2026-11-13T13:56:22.911Z",
+      "text": "Governance watch started: 26 escrow factories on 12 chains, 0 open schedule(s), 0 paused. From now on this channel posts changes only: a scheduled change with its 48 h countdown, a cancel, a pause, an owner / operator / guardian / approver change, and a daily digest while something is open. Silence means nothing moved."
+    }
+  ],
+  "updatedAt": "2026-11-13T13:56:22.911Z"
 }
