@@ -9,8 +9,8 @@ countdown. Nothing here holds a key; the only secrets are the channel credential
 
 - Page: https://instaswap.com/security/governance (renders `state/governance.json` and `state/events.json`)
 - Channel: the `#governance` channel of the InstaSwap Discord (posts changes only; silence means nothing moved)
-- Contracts and audit material: https://github.com/Instaswap-Labs/instaswap-escrow-audit
-- Factory records: [`records/`](records/) (copies of the deployment records of the audit repository)
+- Audit report and contract addresses: https://instaswap.com/security
+- Factory records: [`records/`](records/) (one deployment record per factory: chain, address, implementation, owner, approvers, source commit)
 
 What a message means: `SCHEDULED <kind> ... effective <time> (in 47 h 59 min)` is a change the factory owner
 announced on chain; it cannot execute before that time, can be cancelled meanwhile by the owner or the guardian,
