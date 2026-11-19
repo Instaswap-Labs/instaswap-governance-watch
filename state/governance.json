@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T08:45:16.994Z",
+  "generatedAt": "2026-11-19T08:51:55.080Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -42,7 +42,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164311
+          "creationUnlockAt": 1795164707
         },
         {
           "tag": "v4",
@@ -77,7 +77,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164311
+          "creationUnlockAt": 1795164707
         },
         {
           "tag": "near-bridge",
@@ -112,7 +112,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164311
+          "creationUnlockAt": 1795164707
         }
       ]
     },
@@ -155,7 +155,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -190,7 +190,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         }
       ]
     },
@@ -233,7 +233,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "pancake",
@@ -268,7 +268,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -303,7 +303,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164715
         }
       ]
     },
@@ -346,7 +346,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -381,7 +381,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         }
       ]
     },
@@ -424,7 +424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164716
         },
         {
           "tag": "v4",
@@ -459,7 +459,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164716
         }
       ]
     },
@@ -502,7 +502,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -537,7 +537,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         }
       ]
     },
@@ -580,7 +580,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         },
         {
           "tag": "v4",
@@ -615,7 +615,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         }
       ]
     },
@@ -658,7 +658,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         }
       ]
     },
@@ -701,7 +701,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -736,7 +736,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         }
       ]
     },
@@ -779,7 +779,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         },
         {
           "tag": "v4",
@@ -814,7 +814,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         },
         {
           "tag": "split",
@@ -849,7 +849,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164316
+          "creationUnlockAt": 1795164714
         }
       ]
     },
@@ -892,7 +892,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164315
+          "creationUnlockAt": 1795164713
         },
         {
           "tag": "v4",
@@ -927,7 +927,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164315
+          "creationUnlockAt": 1795164714
         }
       ]
     },
@@ -970,7 +970,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         },
         {
           "tag": "v4",
@@ -1005,7 +1005,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795164317
+          "creationUnlockAt": 1795164715
         }
       ]
     }
