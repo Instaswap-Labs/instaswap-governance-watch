@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:14:37.039Z",
+  "generatedAt": "2026-11-19T16:23:53.708Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -7,7 +7,7 @@
       "chainId": 1,
       "label": "Ethereum",
       "rpc": "ethereum-rpc.publicnode.com",
-      "error": null,
+      "error": "getCode timed out",
       "factories": [
         {
           "tag": "v3",
@@ -15,8 +15,8 @@
           "generation": "gen11",
           "address": "0x7aEAea29f54d26ceb4EAc4dD498cCF66109b6790",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "getCode timed out",
           "version": "11",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -50,8 +50,8 @@
           "generation": "gen11",
           "address": "0xEADfD738C602f79fb191F4bEe297F944979829D4",
           "retired": false,
-          "stale": false,
-          "error": null,
+          "stale": true,
+          "error": "gen11:mainnet:v4 multicall timed out",
           "version": "11",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -112,7 +112,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191275
+          "creationUnlockAt": 1795191863
         }
       ]
     },
@@ -155,7 +155,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -190,7 +190,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -233,7 +233,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "pancake",
@@ -268,7 +268,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -303,7 +303,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -346,7 +346,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -381,7 +381,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191834
         }
       ]
     },
@@ -424,7 +424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -459,7 +459,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191854
         }
       ]
     },
@@ -502,7 +502,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -537,7 +537,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -580,7 +580,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -615,7 +615,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -658,7 +658,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -701,7 +701,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -736,7 +736,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191834
         }
       ]
     },
@@ -779,7 +779,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191832
         },
         {
           "tag": "v4",
@@ -814,7 +814,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "split",
@@ -849,7 +849,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191833
         }
       ]
     },
@@ -892,7 +892,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191274
+          "creationUnlockAt": 1795191832
         },
         {
           "tag": "v4",
@@ -927,7 +927,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191276
+          "creationUnlockAt": 1795191832
         }
       ]
     },
@@ -970,7 +970,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         },
         {
           "tag": "v4",
@@ -1005,7 +1005,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795191277
+          "creationUnlockAt": 1795191833
         }
       ]
     }
@@ -1014,7 +1014,9 @@
   "summary": {
     "factories": 26,
     "chains": 12,
-    "staleChains": [],
+    "staleChains": [
+      "Ethereum"
+    ],
     "openSchedules": 0,
     "paused": 0
   }
