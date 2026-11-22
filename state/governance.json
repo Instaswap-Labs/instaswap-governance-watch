@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T14:50:22.913Z",
+  "generatedAt": "2026-11-22T14:57:38.356Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -42,7 +42,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445411
+          "creationUnlockAt": 1795445855
         },
         {
           "tag": "v4",
@@ -77,7 +77,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445411
+          "creationUnlockAt": 1795445855
         },
         {
           "tag": "near-bridge",
@@ -112,7 +112,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445411
+          "creationUnlockAt": 1795445855
         }
       ]
     },
@@ -155,7 +155,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "v4",
@@ -190,7 +190,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445857
         }
       ]
     },
@@ -233,7 +233,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445858
         },
         {
           "tag": "pancake",
@@ -268,7 +268,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445858
         },
         {
           "tag": "v4",
@@ -303,7 +303,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445858
         }
       ]
     },
@@ -346,7 +346,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         },
         {
           "tag": "v4",
@@ -381,7 +381,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         }
       ]
     },
@@ -424,7 +424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         },
         {
           "tag": "v4",
@@ -459,7 +459,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         }
       ]
     },
@@ -502,7 +502,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445421
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "v4",
@@ -537,7 +537,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445421
+          "creationUnlockAt": 1795445857
         }
       ]
     },
@@ -580,7 +580,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445424
+          "creationUnlockAt": 1795445859
         },
         {
           "tag": "v4",
@@ -615,7 +615,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445425
+          "creationUnlockAt": 1795445861
         }
       ]
     },
@@ -658,7 +658,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445858
         }
       ]
     },
@@ -701,7 +701,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         },
         {
           "tag": "v4",
@@ -736,7 +736,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445858
         }
       ]
     },
@@ -779,7 +779,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "v4",
@@ -814,7 +814,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "split",
@@ -849,7 +849,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445422
+          "creationUnlockAt": 1795445857
         }
       ]
     },
@@ -857,7 +857,7 @@
       "chainId": 43114,
       "label": "Avalanche",
       "rpc": "api.avax.network",
-      "error": "exceeded maximum retry limit (request={  }, response={  }, error=null, info={ \"requestUrl\": \"https://api.avax.network/ext/bc/C/rpc\", \"responseBody\": \"error code: 1015\\n\", \"responseStatus\": \"599 CLIENT",
+      "error": null,
       "factories": [
         {
           "tag": "v3",
@@ -865,8 +865,8 @@
           "generation": "gen11",
           "address": "0x847B937eAf99C927d3689aC3a9B90Cf65503aaa4",
           "retired": false,
-          "stale": true,
-          "error": "exceeded maximum retry limit (request={  }, response={  }, error=null, info={ \"requestUrl\": \"https://api.avax.network/ext/bc/C/rpc\", \"responseBody\": \"error code: 1015\\n\", \"responseStatus\": \"599 CLIENT",
+          "stale": false,
+          "error": null,
           "version": "11",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -892,7 +892,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445022
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "v4",
@@ -900,8 +900,8 @@
           "generation": "gen11",
           "address": "0x5bE79226B4Ba359fB8D86Ac31B1d5Ba96566765F",
           "retired": false,
-          "stale": true,
-          "error": "exceeded maximum retry limit (request={  }, response={  }, error=null, info={ \"requestUrl\": \"https://api.avax.network/ext/bc/C/rpc\", \"responseBody\": \"error code: 1015\\n\", \"responseStatus\": \"599 CLIENT",
+          "stale": false,
+          "error": null,
           "version": "11",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -927,7 +927,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445023
+          "creationUnlockAt": 1795445857
         }
       ]
     },
@@ -970,7 +970,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445857
         },
         {
           "tag": "v4",
@@ -1005,7 +1005,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795445423
+          "creationUnlockAt": 1795445859
         }
       ]
     }
@@ -1014,9 +1014,7 @@
   "summary": {
     "factories": 26,
     "chains": 12,
-    "staleChains": [
-      "Avalanche"
-    ],
+    "staleChains": [],
     "openSchedules": 0,
     "paused": 0
   }
