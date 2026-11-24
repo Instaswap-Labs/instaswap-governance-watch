@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:33:33.643Z",
+  "generatedAt": "2026-11-24T16:40:38.462Z",
   "source": "on-chain reads only (FactoryGovernance getters), no database",
   "publicUrl": "https://instaswap.com/security/governance",
   "chains": [
@@ -42,7 +42,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624403
+          "creationUnlockAt": 1795624835
         },
         {
           "tag": "v4",
@@ -77,7 +77,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624403
+          "creationUnlockAt": 1795624835
         },
         {
           "tag": "near-bridge",
@@ -112,7 +112,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624403
+          "creationUnlockAt": 1795624835
         }
       ]
     },
@@ -155,7 +155,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624837
         },
         {
           "tag": "v4",
@@ -190,7 +190,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624839
         }
       ]
     },
@@ -233,7 +233,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "pancake",
@@ -268,7 +268,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "v4",
@@ -303,7 +303,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         }
       ]
     },
@@ -346,7 +346,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624414
+          "creationUnlockAt": 1795624839
         },
         {
           "tag": "v4",
@@ -381,7 +381,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624414
+          "creationUnlockAt": 1795624839
         }
       ]
     },
@@ -424,7 +424,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624414
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "v4",
@@ -459,7 +459,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624414
+          "creationUnlockAt": 1795624838
         }
       ]
     },
@@ -502,7 +502,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624837
         },
         {
           "tag": "v4",
@@ -537,7 +537,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624837
         }
       ]
     },
@@ -545,7 +545,7 @@
       "chainId": 4663,
       "label": "Robinhood Chain",
       "rpc": "rpc.mainnet.chain.robinhood.com",
-      "error": "server response 503 Service Unavailable (request={  }, response={  }, error=null, info={ \"requestUrl\": \"https://rpc.mainnet.chain.robinhood.com\", \"responseBody\": \"upstream connect error or disconnect/",
+      "error": null,
       "factories": [
         {
           "tag": "v3",
@@ -553,8 +553,8 @@
           "generation": "gen11",
           "address": "0x63Ee9584C22d241caB96D1ACa5e1D407EAEc6AB7",
           "retired": false,
-          "stale": true,
-          "error": "server response 503 Service Unavailable (request={  }, response={  }, error=null, info={ \"requestUrl\": \"https://rpc.mainnet.chain.robinhood.com\", \"responseBody\": \"upstream connect error or disconnect/",
+          "stale": false,
+          "error": null,
           "version": "11",
           "owner": "0xed46deFe2F54E43DeC0174AdeaE7181B35b3B422",
           "pendingOwner": null,
@@ -580,7 +580,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795623932
+          "creationUnlockAt": 1795624837
         },
         {
           "tag": "v4",
@@ -615,7 +615,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624837
         }
       ]
     },
@@ -658,7 +658,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         }
       ]
     },
@@ -701,7 +701,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "v4",
@@ -736,7 +736,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624414
+          "creationUnlockAt": 1795624838
         }
       ]
     },
@@ -779,7 +779,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "v4",
@@ -814,7 +814,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         },
         {
           "tag": "split",
@@ -849,7 +849,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624838
         }
       ]
     },
@@ -892,7 +892,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624412
+          "creationUnlockAt": 1795624837
         },
         {
           "tag": "v4",
@@ -927,7 +927,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624412
+          "creationUnlockAt": 1795624837
         }
       ]
     },
@@ -970,7 +970,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624839
         },
         {
           "tag": "v4",
@@ -1005,7 +1005,7 @@
           "paused": false,
           "refundTimeoutSeconds": 86400,
           "looseningEffectiveAt": null,
-          "creationUnlockAt": 1795624413
+          "creationUnlockAt": 1795624839
         }
       ]
     }
@@ -1014,9 +1014,7 @@
   "summary": {
     "factories": 26,
     "chains": 12,
-    "staleChains": [
-      "Robinhood Chain"
-    ],
+    "staleChains": [],
     "openSchedules": 0,
     "paused": 0
   }
